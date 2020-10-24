@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #00010D !important;
+    height: 100% !important;
+}
+
+#particles-js {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.center-box {
+    top: 30%;
+    right: 0;
+    left: 0;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+.primary-text {
+    color: #D9D9D9;
+    font-family: kanit;
+}
+
+.forms {
+    width: 70%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: absolute;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: #00010D;
+    width: 100%;
+    min-height: 100%;
+}
+
+.content-wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 25%;
+}
+
+.logo {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #D9D9D9 !important;
+    font-family: kanit;
+    opacity: 0.8;
+}
+a:hover {
+    text-decoration: none !important;
+    color: #D9D9D9 !important;
+    font-family: kanit;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.members-list {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.members-list li {
+    margin-bottom: 20px;
+}
+
+.members-list img {
+    margin-right: 15px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+
+@font-face {
+    font-family: 'kanit';
+    src: url('../fonts/Kanit-Light.ttf') format('truetype');
+}
+
+
+
+
+
+  
+
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
