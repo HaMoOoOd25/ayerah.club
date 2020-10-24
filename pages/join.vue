@@ -73,14 +73,14 @@ export default {
   },
   methods: {
     submitRequest: async function (e) {
-      // if (Vue.$cookies.get("submitted")) {
-      //   this.submitted = true;
-      //   return;
-      // }
+      if (Vue.$cookies.get("submitted")) {
+        this.submitted = true;
+        return;
+      }
 
       try {
         const res = await axios.post(
-          "http://localhost:8000/joinrequest",
+          "http://127.0.0.1:8888/joinrequest",
           {
             username: this.username,
             id: this.id,
