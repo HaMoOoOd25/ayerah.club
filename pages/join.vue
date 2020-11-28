@@ -80,7 +80,7 @@ export default {
 
       try {
         const res = await this.$axios.post(
-          "http://127.0.0.1:8000/joinrequest",
+          "/api/joinrequest",
           {
             username: this.username,
             id: this.id,
