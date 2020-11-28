@@ -79,8 +79,8 @@ export default {
       }
 
       try {
-        const res = await axios.post(
-          "http://127.0.0.1:8888/joinrequest",
+        const res = await this.$axios.post(
+          "http://127.0.0.1:8000/joinrequest",
           {
             username: this.username,
             id: this.id,

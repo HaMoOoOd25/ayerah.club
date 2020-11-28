@@ -54,7 +54,12 @@ export default {
   },
 
   proxy: {
-    '/api/': { target: 'http://discord.com/', pathRewrite: {'^/api/': ''}, changeOrigin: true }
+    '/api': {
+      target: 'http://107.191.63.99:8000',
+      pathRewrite: {
+        '^/api': '/'
+      }
+    }
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
