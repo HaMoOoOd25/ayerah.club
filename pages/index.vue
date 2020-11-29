@@ -1,7 +1,7 @@
 <template>
   <div>
     <vue-particles color="#dedede"></vue-particles>
-    <modal name="joinSquad"> 
+    <modal height="auto" adaptive="true" scrollable="true" name="joinSquad"> 
       <div class="primary-text text-center p-3">
         <h3>Join Ayerah Squad</h3>
         <br>
